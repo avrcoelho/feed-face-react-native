@@ -1,7 +1,10 @@
+
+import './config/ReactotronConfig';
+
 import React, { Component } from 'react';
 import { Text, View, ScrollView } from 'react-native';
 
-import Posts from './components/Posts';
+import Posts from '~/components/Posts';
 
 import styles from './styles';
 
