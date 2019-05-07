@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
 
 import styles from './styles';
 
-const Posts = props => (
+const Posts = ({ data }) => (
   <View style={styles.posts}>
-    <Text style={styles.title}>{props.data.title}</Text>
-    <Text style={styles.name}>{props.data.name}</Text>
-    <Text style={styles.body}>{props.data.body}</Text>
+    <Text style={styles.title}>{data.title}</Text>
+    <Text style={styles.name}>{data.name}</Text>
+    <Text style={styles.body}>{data.body}</Text>
   </View>
 );
 
